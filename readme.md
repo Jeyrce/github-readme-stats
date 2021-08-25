@@ -83,6 +83,11 @@ Your small help goes a long way. :heart:
 - [Wakatime Week Stats](#wakatime-week-stats)
 - [Themes](#themes)
 - [Customization](#customization)
+  - [Common Options](#common-options)
+  - [Stats Card Exclusive Options](#stats-card-exclusive-options)
+  - [Repo Card Exclusive Options](#repo-card-exclusive-options)
+  - [Language Card Exclusive Options](#language-card-exclusive-options)
+  - [Wakatime Card Exclusive Option](#wakatime-card-exclusive-options)
 - [Deploy Yourself](#deploy-on-your-own-vercel-instance)
 
 # GitHub Stats Card
@@ -113,7 +118,7 @@ To hide any specific stats, you can pass a query parameter `?hide=` with comma-s
 
 You can add the count of all your private contributions to the total commits count by using the query parameter `?count_private=true`.
 
-_Note: If you are deploying this project yourself, the private contributions will be counted by default otherwise you need to chose to share your private contribution counts._
+_Note: If you are deploying this project yourself, the private contributions will be counted by default. Otherwise, you need to choose to share your private contribution counts._
 
 > Options: `&count_private=true`
 
